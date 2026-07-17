@@ -64,7 +64,7 @@ function LandingPage() {
                 </Button>
               ))}
               <Button href="#contact" variant="contained" color="primary" endIcon={<ArrowOutwardRounded fontSize="small" />} sx={{ ml: 1.4, color: '#06142b' }}>
-                Start a conversation
+                Let's Build Together
               </Button>
             </Stack>
 
@@ -87,7 +87,7 @@ function LandingPage() {
             </Button>
           ))}
           <Button href="#contact" onClick={closeMenu} variant="contained" color="primary" sx={{ color: '#06142b', mt: 1.5 }}>
-            Start a conversation
+            Let's Build Together
           </Button>
         </Stack>
       </Drawer>
