@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  color: #f7fbff;
+  background: #06142b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+
+body { margin: 0; min-width: 320px; }
+
+* { box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+.brand-link { display: inline-flex; }
+
+.ambient {
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+  width: 34rem;
+  height: 34rem;
+  border-radius: 50%;
+  filter: blur(85px);
+  opacity: 0.12;
+}
+
+.ambient-one { top: 2rem; right: -15rem; background: #6d75ff; }
+.ambient-two { top: 35rem; left: -20rem; background: #3ce3bd; opacity: 0.08; }
+
+.window-dot { width: 9px; height: 9px; border-radius: 100%; }
+.dot-red { background: #f37379; }
+.dot-yellow { background: #f2c66f; }
+.dot-green { background: #69d5a5; }
+
+.footer-link { color: #afc0dc; transition: color 160ms ease; }
+.footer-link:hover { color: #6ee7d2; }
+
+.service-card:hover .service-arrow { transform: translate(2px, -2px); }
+.service-arrow { transition: transform 180ms ease; }
+
+.MuiInputBase-root {
+  background: rgba(3, 16, 37, 0.32);
+}
+
+.MuiOutlinedInput-notchedOutline { border-color: rgba(188, 214, 255, 0.24) !important; }
+.MuiInputBase-root:hover .MuiOutlinedInput-notchedOutline { border-color: rgba(110, 231, 210, 0.56) !important; }
+.MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline { border-color: #6ee7d2 !important; }
+
+@media (max-width: 600px) {
+  .ambient { width: 22rem; height: 22rem; }
+}
