@@ -1,5 +1,5 @@
-import { Box, Typography } from '@mui/material'
-import logo from '../assets/ls-logo.png'
+import { Box, Typography } from '@mui/material';
+import logo from '../assets/ls-logo.png';
 
 type BrandMarkProps = {
   compact?: boolean
